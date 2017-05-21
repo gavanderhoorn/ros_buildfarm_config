@@ -48,6 +48,9 @@ prerequisites:
     -----END PGP PUBLIC KEY BLOCK-----
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
-  default: []
+  default:
+  - http://192.168.223.151/ubuntu/building
+  - http://192.168.223.151/ubuntu/testing
+  - http://192.168.223.151/ubuntu/main
 type: buildfarm
 version: 1
