@@ -2,13 +2,13 @@
 # ROS buildfarm index file
 ---
 distributions:
-  bliep:
+  canary:
     doc_builds: {}
     notification_emails:
     - g.a.vanderhoorn@tudelft.nl
     release_builds: {}
     source_builds: {}
-jenkins_url: http://rosin-build-master
+jenkins_url: http://131.180.122.41
 notification_emails:
 - g.a.vanderhoorn@tudelft.nl
 prerequisites:
@@ -49,8 +49,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://192.168.223.151/ubuntu/building
-  - http://192.168.223.151/ubuntu/testing
-  - http://192.168.223.151/ubuntu/main
+  - http://131.180.122.43/ubuntu/building
+  - http://131.180.122.43/ubuntu/testing
+  - http://131.180.122.43/ubuntu/main
 type: buildfarm
 version: 1
