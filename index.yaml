@@ -2,8 +2,9 @@
 # ROS buildfarm index file
 ---
 distributions:
-  canary:
-    doc_builds: {}
+  indigo:
+    doc_builds:
+      default: indigo/doc-build.yaml
     notification_emails:
     - g.a.vanderhoorn@tudelft.nl
     release_builds: {}
