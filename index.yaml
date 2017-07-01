@@ -8,7 +8,8 @@ distributions:
     notification_emails:
     - g.a.vanderhoorn@tudelft.nl
     release_builds: {}
-    source_builds: {}
+    source_builds:
+      default: indigo/source-build.yaml
 jenkins_url: http://131.180.122.41
 notification_emails:
 - g.a.vanderhoorn@tudelft.nl
