@@ -15,37 +15,6 @@ repositories:
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
-    Version: GnuPG v1
-
-    mQENBFkd/OIBCADQb3SOvrseZpxIYHT3Z1TEhtk9d/WkpAOtnj1RK9N9C5I3ownT
-    ZQUhoUnHbFqumV+laNyw9qIBWAWvPyW36/rwLJTNY8/POLhDQMp6e7RQDCWe5nzE
-    UOsSkKqp+eeQjC1WWy8ctp6GoPoCy06S6PomPAeGTk4AtJy9aQyTeUSTD8nolSVf
-    uVhBWnqZYrBys3yzWjBoD7Ha6pVJ8Crrv1wcTevWDZRJqB+KjIvrh5ClVPZYotWm
-    MnQcteAbPm8tTJkgTogujYGwD1nFmCbhYAuiquc9SM4pYE4sPVdLqDI5oNmtX6na
-    CgFuCJf6J+wVcsuFPD+pM3nOlsQ1CLf6SeiLABEBAAG0K1JPU0lOIEJ1aWxkZXIg
-    PHJvc2luYnVpbGRAcm9zaW4tcHJvamVjdC5ldT6JATgEEwECACIFAlkd/OICGwMG
-    CwkIBwMCBhUIAgkKCwQWAgMBAh4BAheAAAoJEEtXielxlHf3GH0IAKBfmUdhkYWu
-    bM1DEYTSdN7bBa0to5Z9b5PNmH+VV4n3vjbS6pAc09kv3byfAf0PnAyIVX37Bfmm
-    ruRdCBFrWU37/wl3GvvRlZM3l3EB9ZTQg7kvxMH4e7Jhjj8bdQBg55Ysbjajvimy
-    hNgbSk9Tpz2KE+2O69PkcUXIWZ+DNbujpcwXUY/sSQUohBY66bwhT9gIivZ0FM3b
-    w41P1J0buE2QCNl/YDG6HE5Q3jPw56nLbbUAVcyquiO3zQrlz+wOj/xcFN7nh1PO
-    l6QAScfolZf4ese7sDXdJsov1cDqRLOzemFC6rGvwA2Xmke1hHwSb7SfziTr4yjh
-    MHyjXOu3/Zq5AQ0EWR384gEIAMqGDFd4snpISnzYP6HThr4Wm6ulB6yELoPIGIUT
-    dPWsQ5HvwTssBv531IMoc++lgp22kHusbMfUmN2+nOO+NeT7Mt3S9vl/qNVWUz8V
-    mLBFlUtfxDn/vRKe265lyPhLGX60XUHUZioqwj8BWZa1QnPgsZRPxt+mOJrELvEH
-    7gCeVXPhgb2Tyo7waB8hYb3jvUm97SZ8lkeddGUVBUgLHU3WN1VAb9uOD2YaP3X7
-    pvM2HKClJFAayI8oWOwDlAwpVaQsvu5mS1ugWzZUH9xBGjZIjDrG3pa4gRyVSBIv
-    7/P1ql9mO2YrETGueTpJ0bZpO0i1lntqLF9Cdv3rXCTpHfcAEQEAAYkBHwQYAQIA
-    CQUCWR384gIbDAAKCRBLV4npcZR390aqB/4vK5AjyRXjOj1lnGUxgI8BL4WE9r88
-    9GCnXN9gyh6XBrbDOkQvJsBrFZVi94KFM2hdp2OtZB3yNQ9dYQDhyHDjDZG+0ws0
-    cHl6Aq06+W/wHrtcjH6XbC56OJqaP/BT9OrDkZz9xLMX5KPzq4cEYRFzcPsw9G6b
-    dT+HZPuNIF6Ucp1UEkg/XQn9C+6UReIjPGjizZZ5F/1ilVXAfGct/ecrOvbA4DsA
-    SrNAFclY4qxKzeDk19QccC3CpGQKj+mJ83Kpa9JfSCFM9q8bPuLsA9Z7zDJSArOG
-    JsMWnouVuXOGza/9OvCXxri2yG9jqV8yz7doEqETYY5/80mKSu1Vp3e4
-    =ihyj
-    -----END PGP PUBLIC KEY BLOCK-----
-  - |
-    -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
 
     mQGiBEsy5KkRBADJbDSISoamRM5AA20bfAeBuhhaI+VaiCVcxw90sq9AI5lIc42F
@@ -76,7 +45,6 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://131.180.122.43/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
 skip_ignored_repositories: true
 targets:
