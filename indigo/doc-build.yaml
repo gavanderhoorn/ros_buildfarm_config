@@ -10,7 +10,7 @@ notifications:
   emails:
   - g.a.vanderhoorn@tudelft.nl
   maintainers: false
-repository_whitelist: [actionlib]
+repository_whitelist: [actionlib, roscpp_core]
 repositories:
   keys:
   - |
