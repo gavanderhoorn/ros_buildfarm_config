@@ -1,23 +1,34 @@
 %YAML 1.1
-# ROS buildfarm index file
+# ROS buildfarm release-build file
 ---
-distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-    notification_emails:
-    - g.a.vanderhoorn@tudelft.nl
-    release_builds:
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
-jenkins_url: http://131.180.122.41
-notification_emails:
-- g.a.vanderhoorn@tudelft.nl
-prerequisites:
-  debian_repositories:
-  - http://repositories.ros.org/ubuntu/main
-  debian_repository_keys:
+abi_incompatibility_assumed: true
+jenkins_binary_job_priority: 86
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 82
+jenkins_source_job_timeout: 30
+notifications:
+  emails:
+  - g.a.vanderhoorn@tudelft.nl
+  maintainers: false
+sync:
+  package_count: 1
+package_whitelist:
+  - actionlib
+  - cpp_common
+  - industrial_core
+  - industrial_deprecated
+  - industrial_msgs
+  - industrial_robot_client
+  - industrial_robot_simulator
+  - industrial_trajectory_filter
+  - industrial_utils
+  - roscpp_core
+  - roscpp_serialization
+  - roscpp_traits
+  - rostime
+  - simple_message
+repositories:
+  keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v1.4.11 (GNU/Linux)
@@ -49,11 +60,14 @@ prerequisites:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
-status_page_repositories:
-  default:
-  - http://131.180.122.43/ubuntu/building
-  - http://131.180.122.43/ubuntu/testing
-  - http://131.180.122.43/ubuntu/main
-type: buildfarm
-version: 1
+  urls:
+  - http://repositories.ros.org/ubuntu/building
+skip_ignored_packages: true
+target_repository: http://131.180.122.43/ubuntu/building
+targets:
+  ubuntu:
+    trusty:
+      amd64:
+type: release-build
+upload_credential_id: 7e2e681c-4647-4cbb-bec6-96c493a159a5
+version: 2
