@@ -11,6 +11,7 @@ notifications:
   maintainers: false
 repository_whitelist:
  - actionlib
+ - fanuc
  - industrial_core
  - roscpp_core
 repositories:
